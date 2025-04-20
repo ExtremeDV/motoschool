@@ -1,0 +1,1 @@
+export { default } from "/app/motoschool/node_modules/.pnpm/@nuxt+image@1.10.0_db0@0.3.1_better-sqlite3@11.9.1__ioredis@5.6.0_magicast@0.3.5/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue"

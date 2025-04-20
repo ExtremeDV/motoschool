@@ -1,0 +1,1 @@
+export { default } from "file:///app/motoschool/node_modules/.pnpm/@nuxt+vite-builder@3.16.2_@types+node@22.13.14_eslint@9.23.0_jiti@2.4.2__lightningcss@1_6848f2fb73c0e96259d73616b526f868/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

@@ -1,0 +1,18 @@
+{
+  "@vite/client": {
+    "prefetch": true,
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "/app/motoschool/node_modules/.pnpm/nuxt@3.16.2_@parcel+watcher@2.5.1_@types+node@22.13.14_better-sqlite3@11.9.1_db0@0.3.1__81078e9fe982705ea41a96995e333c31/node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "isEntry": true,
+    "file": "/app/motoschool/node_modules/.pnpm/nuxt@3.16.2_@parcel+watcher@2.5.1_@types+node@22.13.14_better-sqlite3@11.9.1_db0@0.3.1__81078e9fe982705ea41a96995e333c31/node_modules/nuxt/dist/app/entry.js"
+  }
+}
