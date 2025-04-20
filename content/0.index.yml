@@ -1,9 +1,11 @@
-title: Build your SaaS with Nuxt UI Pro
-description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes. It includes all primitives to build landing pages, documentations, blogs, dashboards or entire SaaS products.
+title: ШКОЛАМОТО.РФ
+description: Мы нерельно крутые веселые и быстрые
 seo:
   title: Nuxt UI Pro - SaaS template
   description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
-navigation: false
+navigation:
+  title: Тест
+  description: аааааа
 hero:
   links:
     - label: Get started
@@ -34,6 +36,7 @@ sections:
       - name: Bank-Level Security
         description: SOC 2 Type II certified with end-to-end encryption and advanced threat detection.
         icon: i-lucide-lock
+    reverse: false
   - title: Optimized for Growth
     description: Scale your business confidently with our enterprise-ready platform. From startups to Fortune 500 companies, we provide the tools and support you need to succeed.
     orientation: horizontal
@@ -131,7 +134,7 @@ testimonials:
           src: https://i.pravatar.cc/120?img=12
     - quote: Integration with our existing tools was seamless. The webhooks and API documentation made it easy to automate our workflows and enhance our development pipeline.
       user:
-        name: Sophia Martinez
+        name: Sophia Иванова
         description: Integration Specialist at TechFlow
         avatar:
           src: https://i.pravatar.cc/120?img=14
