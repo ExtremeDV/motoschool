@@ -16,14 +16,13 @@ useSeoMeta({
       :title="page.title"
       :description="page.description"
       :links="page.hero.links"
+      class="relative bg-cover bg-center"
+      style="background-image: url('img/Motorcycler-Rider-Courses-1280x550_0.jpg');"
     >
       <template #top>
-        <div class="absolute rounded-full dark:bg-(--ui-primary) blur-[300px] size-60 sm:size-80 transform -translate-x-1/2 left-1/2 -translate-y-80" />
-
-        <LazyStarsBg />
+      <!-- <div class="absolute rounded-full dark:bg-(--ui-primary) blur-[100px] size-60 sm:size-80 transform -translate-x-1/2 left-1/2 -translate-y-80" /> -->
+      <LazyStarsBg />
       </template>
-
-      <PromotionalVideo />
     </UPageHero>
 
     <UPageSection

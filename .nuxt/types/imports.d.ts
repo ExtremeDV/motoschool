@@ -52,6 +52,7 @@ declare global {
   const eagerComputed: typeof import('../../node_modules/.pnpm/@vueuse+core@13.0.0_vue@3.5.13_typescript@5.8.2_/node_modules/@vueuse/core')['eagerComputed']
   const effect: typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.8.2/node_modules/vue')['effect']
   const effectScope: typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.8.2/node_modules/vue')['effectScope']
+  const extendCompodiumMeta: typeof import('@compodium/core/runtime/composables/extendCompodiumMeta')['extendCompodiumMeta']
   const extendRef: typeof import('../../node_modules/.pnpm/@vueuse+core@13.0.0_vue@3.5.13_typescript@5.8.2_/node_modules/@vueuse/core')['extendRef']
   const extractShortcuts: typeof import('../../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/composables/defineShortcuts')['extractShortcuts']
   const formBusInjectionKey: typeof import('../../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/composables/useFormField')['formBusInjectionKey']
@@ -497,6 +498,7 @@ declare module 'vue' {
     readonly eagerComputed: UnwrapRef<typeof import('../../node_modules/.pnpm/@vueuse+core@13.0.0_vue@3.5.13_typescript@5.8.2_/node_modules/@vueuse/core')['eagerComputed']>
     readonly effect: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.8.2/node_modules/vue')['effect']>
     readonly effectScope: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.5.13_typescript@5.8.2/node_modules/vue')['effectScope']>
+    readonly extendCompodiumMeta: UnwrapRef<typeof import('@compodium/core/runtime/composables/extendCompodiumMeta')['extendCompodiumMeta']>
     readonly extendRef: UnwrapRef<typeof import('../../node_modules/.pnpm/@vueuse+core@13.0.0_vue@3.5.13_typescript@5.8.2_/node_modules/@vueuse/core')['extendRef']>
     readonly extractShortcuts: UnwrapRef<typeof import('../../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/composables/defineShortcuts')['extractShortcuts']>
     readonly formBusInjectionKey: UnwrapRef<typeof import('../../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/composables/useFormField')['formBusInjectionKey']>

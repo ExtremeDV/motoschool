@@ -25,3 +25,4 @@ declare module "#build/components.plugin.mjs";
 declare module "#build/component-names.mjs";
 declare module "#build/components.islands.mjs";
 declare module "#build/nuxt-og-image/compatibility.mjs";
+declare module "#build/compodium/root.mjs";

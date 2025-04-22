@@ -20,7 +20,6 @@ interface _GlobalComponents {
     'LogoPro': typeof import("../app/components/LogoPro.vue")['default']
     'PromotionalVideo': typeof import("../app/components/PromotionalVideo.vue")['default']
     'StarsBg': typeof import("../app/components/StarsBg.vue")['default']
-    'TemplateMenu': typeof import("../app/components/TemplateMenu.vue")['default']
     'UAccordion': typeof import("../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']
     'UAlert': typeof import("../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']
     'UApp': typeof import("../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']
@@ -213,7 +212,6 @@ interface _GlobalComponents {
     'LazyLogoPro': LazyComponent<typeof import("../app/components/LogoPro.vue")['default']>
     'LazyPromotionalVideo': LazyComponent<typeof import("../app/components/PromotionalVideo.vue")['default']>
     'LazyStarsBg': LazyComponent<typeof import("../app/components/StarsBg.vue")['default']>
-    'LazyTemplateMenu': LazyComponent<typeof import("../app/components/TemplateMenu.vue")['default']>
     'LazyUAccordion': LazyComponent<typeof import("../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']>
     'LazyUAlert': LazyComponent<typeof import("../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']>
     'LazyUApp': LazyComponent<typeof import("../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']>
@@ -412,7 +410,6 @@ export const ImagePlaceholder: typeof import("../app/components/ImagePlaceholder
 export const LogoPro: typeof import("../app/components/LogoPro.vue")['default']
 export const PromotionalVideo: typeof import("../app/components/PromotionalVideo.vue")['default']
 export const StarsBg: typeof import("../app/components/StarsBg.vue")['default']
-export const TemplateMenu: typeof import("../app/components/TemplateMenu.vue")['default']
 export const UAccordion: typeof import("../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']
 export const UAlert: typeof import("../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']
 export const UApp: typeof import("../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']
@@ -605,7 +602,6 @@ export const LazyImagePlaceholder: LazyComponent<typeof import("../app/component
 export const LazyLogoPro: LazyComponent<typeof import("../app/components/LogoPro.vue")['default']>
 export const LazyPromotionalVideo: LazyComponent<typeof import("../app/components/PromotionalVideo.vue")['default']>
 export const LazyStarsBg: LazyComponent<typeof import("../app/components/StarsBg.vue")['default']>
-export const LazyTemplateMenu: LazyComponent<typeof import("../app/components/TemplateMenu.vue")['default']>
 export const LazyUAccordion: LazyComponent<typeof import("../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']>
 export const LazyUAlert: LazyComponent<typeof import("../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']>
 export const LazyUApp: LazyComponent<typeof import("../node_modules/.pnpm/@nuxt+ui@3.0.2_@babel+parser@7.27.0_db0@0.3.1_better-sqlite3@11.9.1__embla-carousel@8.5_26abc6c03877c4807b8bcd40f3d7d0fe/node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']>

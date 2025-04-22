@@ -6,21 +6,23 @@ import nodeCrypto from 'node:crypto';
 import { parentPort, threadId } from 'node:worker_threads';
 import defu, { defuFn, defu as defu$1 } from 'file:///app/motoschool/node_modules/.pnpm/defu@6.1.4/node_modules/defu/dist/defu.mjs';
 import { html as html$1 } from 'file:///app/motoschool/node_modules/.pnpm/satori-html@0.3.2/node_modules/satori-html/dist/index.js';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, hasProtocol, withHttps, joinRelativeURL, withoutProtocol, withLeadingSlash, withoutTrailingSlash, withBase, withoutLeadingSlash } from 'file:///app/motoschool/node_modules/.pnpm/ufo@1.5.4/node_modules/ufo/dist/index.mjs';
 import sizeOf from 'file:///app/motoschool/node_modules/.pnpm/image-size@2.0.1/node_modules/image-size/dist/index.mjs';
+import { withQuery as withQuery$1, joinURL as joinURL$1, withTrailingSlash, joinRelativeURL, withoutTrailingSlash as withoutTrailingSlash$1, withoutBase as withoutBase$1, parseURL as parseURL$1, withoutLeadingSlash, withBase as withBase$1, getQuery as getQuery$2 } from 'file:///app/motoschool/node_modules/.pnpm/ufo@1.5.4/node_modules/ufo/dist/index.mjs';
 import consola, { consola as consola$1, createConsola } from 'file:///app/motoschool/node_modules/.pnpm/consola@3.4.2/node_modules/consola/dist/index.mjs';
 import { execa } from 'file:///app/motoschool/node_modules/.pnpm/execa@9.5.2/node_modules/execa/index.js';
 import playwrightCore from 'file:///app/motoschool/node_modules/.pnpm/playwright-core@1.51.1/node_modules/playwright-core/index.mjs';
 import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file:///app/motoschool/node_modules/.pnpm/vue-bundle-renderer@2.1.1/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import destr from 'file:///app/motoschool/node_modules/.pnpm/destr@2.0.3/node_modules/destr/dist/index.mjs';
+import destr$1 from 'file:///app/motoschool/node_modules/.pnpm/destr@2.0.3/node_modules/destr/dist/index.mjs';
 import { createHead as createHead$1, propsToString, renderSSRHead } from 'file:///app/motoschool/node_modules/.pnpm/unhead@2.0.2/node_modules/unhead/dist/server.mjs';
 import { isVNode, toValue, isRef } from 'file:///app/motoschool/node_modules/.pnpm/vue@3.5.13_typescript@5.8.2/node_modules/vue/index.mjs';
 import { walkResolver } from 'file:///app/motoschool/node_modules/.pnpm/unhead@2.0.2/node_modules/unhead/dist/utils.mjs';
 import { renderToString } from 'file:///app/motoschool/node_modules/.pnpm/vue@3.5.13_typescript@5.8.2/node_modules/vue/server-renderer/index.mjs';
 import { stringify, parse, uneval } from 'file:///app/motoschool/node_modules/.pnpm/devalue@5.1.1/node_modules/devalue/index.js';
+import destr from 'file:///app/motoschool/node_modules/.pnpm/destr@2.0.5/node_modules/destr/dist/index.mjs';
 import { createHooks } from 'file:///app/motoschool/node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs';
 import { createFetch, Headers as Headers$1 } from 'file:///app/motoschool/node_modules/.pnpm/ofetch@1.4.1/node_modules/ofetch/dist/node.mjs';
 import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file:///app/motoschool/node_modules/.pnpm/node-mock-http@1.0.0/node_modules/node-mock-http/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, hasProtocol, withHttps, withoutProtocol, withTrailingSlash as withTrailingSlash$1, withLeadingSlash, withoutTrailingSlash, withBase } from 'file:///app/motoschool/node_modules/.pnpm/ufo@1.6.1/node_modules/ufo/dist/index.mjs';
 import { createStorage, prefixStorage, normalizeKey } from 'file:///app/motoschool/node_modules/.pnpm/unstorage@1.15.0_db0@0.3.1_better-sqlite3@11.9.1__ioredis@5.6.0/node_modules/unstorage/dist/index.mjs';
 import unstorage_47drivers_47fs from 'file:///app/motoschool/node_modules/.pnpm/unstorage@1.15.0_db0@0.3.1_better-sqlite3@11.9.1__ioredis@5.6.0/node_modules/unstorage/drivers/fs.mjs';
 import { digest, hash as hash$1 } from 'file:///app/motoschool/node_modules/.pnpm/ohash@2.0.11/node_modules/ohash/dist/index.mjs';
@@ -1272,7 +1274,7 @@ const errorHandler$0 = (async function errorhandler(error, event, { defaultHandl
   const reqHeaders = getRequestHeaders(event);
   const isRenderingError = event.path.startsWith("/__nuxt_error") || !!reqHeaders["x-nuxt-error"];
   const res = isRenderingError ? null : await useNitroApp().localFetch(
-    withQuery(joinURL(useRuntimeConfig(event).app.baseURL, "/__nuxt_error"), errorObject),
+    withQuery$1(joinURL$1(useRuntimeConfig(event).app.baseURL, "/__nuxt_error"), errorObject),
     {
       headers: { ...reqHeaders, "x-nuxt-error": "true" },
       redirect: "manual"
@@ -1746,9 +1748,9 @@ function publicAssetsURL(...path) {
 }
 
 const checksums = {
-  "docs": "v3.5.0--HgOwnIyi0G8r8VgEBWMUV-2IWZDKNXVMZ05RfKEHn-Y",
+  "docs": "v3.5.0--QsGFRJRjTW-QxnNIYLqQ6u5-f4WMRsHUuJzOHDvxTDc",
   "posts": "v3.5.0--7tz_5ovN0FjHs8ljGj7OKA_FHVPvrCnxy5nbuyPcJgU",
-  "index": "v3.5.0--aC67djIxh5tLbO9EBFmoQUeIlyKkvhlP0UN4kP0FIwM",
+  "index": "v3.5.0--f0VwT4bhgd4FX5_VuE949b5OMtUBKWKEXytOCTJ0YmE",
   "pricing": "v3.5.0--rngB-tCwuXPNHCYIZx_5w7XJ1oY5BIo6d3HPj38d-Jo",
   "blog": "v3.5.0--RsT3Z5x3fGzPpGfybPEi7JEWdx9T21iM_LpFRHq1tnM"
 };
@@ -1894,7 +1896,7 @@ function useNitroOrigin(e) {
     host = host.split(":")[0];
   }
   port = port ? `:${port}` : "";
-  return withTrailingSlash(`${protocol}://${host}${port}`);
+  return withTrailingSlash$1(`${protocol}://${host}${port}`);
 }
 
 function resolveSitePath(pathOrUrl, options) {
@@ -1913,7 +1915,7 @@ function resolveSitePath(pathOrUrl, options) {
   }
   const baseWithOrigin = options.withBase ? withBase(base, origin || "/") : origin;
   const resolvedUrl = withBase(path, baseWithOrigin);
-  return path === "/" && !options.withBase ? withTrailingSlash(resolvedUrl) : fixSlashes(options.trailingSlash, resolvedUrl);
+  return path === "/" && !options.withBase ? withTrailingSlash$1(resolvedUrl) : fixSlashes(options.trailingSlash, resolvedUrl);
 }
 function isPathFile(path) {
   const lastSegment = path.split("/").pop();
@@ -1923,7 +1925,7 @@ function fixSlashes(trailingSlash, pathOrUrl) {
   const $url = parseURL(pathOrUrl);
   if (isPathFile($url.pathname))
     return pathOrUrl;
-  const fixedPath = trailingSlash ? withTrailingSlash($url.pathname) : withoutTrailingSlash($url.pathname);
+  const fixedPath = trailingSlash ? withTrailingSlash$1($url.pathname) : withoutTrailingSlash($url.pathname);
   return `${$url.protocol ? `${$url.protocol}//` : ""}${$url.host || ""}${fixedPath}${$url.search || ""}${$url.hash || ""}`;
 }
 
@@ -2087,14 +2089,14 @@ function createNitroRouteRuleMatcher() {
   const _routeRulesMatcher = toRouteMatcher(
     createRouter({
       routes: Object.fromEntries(
-        Object.entries(nitro?.routeRules || {}).map(([path, rules]) => [withoutTrailingSlash(path), rules])
+        Object.entries(nitro?.routeRules || {}).map(([path, rules]) => [withoutTrailingSlash$1(path), rules])
       )
     })
   );
   return (path) => {
     return defu$1({}, ..._routeRulesMatcher.matchAll(
       // radix3 does not support trailing slashes
-      withoutBase(withoutTrailingSlash(withoutQuery(path)), app.baseURL)
+      withoutBase$1(withoutTrailingSlash$1(withoutQuery(path)), app.baseURL)
     ).reverse());
   };
 }
@@ -2140,7 +2142,7 @@ function resolvePathCacheKey(e, path) {
   const siteConfig = useSiteConfig(e, {
     resolveRefs: true
   });
-  const basePath = withoutTrailingSlash(withoutLeadingSlash(normalizeKey(path)));
+  const basePath = withoutTrailingSlash$1(withoutLeadingSlash(normalizeKey(path)));
   return [
     !basePath || basePath === "/" ? "index" : basePath,
     hash$1([
@@ -2156,7 +2158,7 @@ async function resolveContext(e) {
     absolute: false,
     withBase: true
   });
-  const path = resolvePathWithBase(parseURL(e.path).pathname);
+  const path = resolvePathWithBase(parseURL$1(e.path).pathname);
   const extension = path.split(".").pop();
   if (!extension) {
     return createError({
@@ -2173,11 +2175,11 @@ async function resolveContext(e) {
   let queryParams = { ...getQuery$1(e) };
   queryParams.props = JSON.parse(queryParams.props || "{}");
   queryParams = separateProps(queryParams);
-  let basePath = withoutTrailingSlash(
+  let basePath = withoutTrailingSlash$1(
     path.replace(`/__og-image__/image`, "").replace(`/__og-image__/static`, "").replace(`/og.${extension}`, "")
   );
   if (queryParams._query)
-    basePath = withQuery(basePath, JSON.parse(queryParams._query));
+    basePath = withQuery$1(basePath, JSON.parse(queryParams._query));
   const isDebugJsonPayload = extension === "json" && runtimeConfig.debug;
   const key = resolvePathCacheKey(e, basePath);
   let options = queryParams.options;
@@ -3349,7 +3351,7 @@ const imageSrc = defineSatoriTransformer([
         if (imageBuffer) {
           node.props.src = toBase64Image(imageBuffer);
         } else {
-          node.props.src = `${withBase(src, `${useNitroOrigin(e)}`)}?${Date.now()}`;
+          node.props.src = `${withBase$1(src, `${useNitroOrigin(e)}`)}?${Date.now()}`;
         }
       }
     }
@@ -7244,7 +7246,7 @@ async function createBrowser() {
 
 async function createScreenshot({ basePath, e, options, extension }, browser) {
   const { colorPreference } = useOgImageRuntimeConfig();
-  const path = options.component === "PageScreenshot" ? basePath : joinURL("/__og-image__/image", basePath, `og.html`);
+  const path = options.component === "PageScreenshot" ? basePath : joinURL$1("/__og-image__/image", basePath, `og.html`);
   const page = await browser.newPage({
     colorScheme: colorPreference || "no-preference",
     baseURL: useNitroOrigin(e)
@@ -7264,7 +7266,7 @@ async function createScreenshot({ basePath, e, options, extension }, browser) {
       }, html);
       await page.waitForLoadState("networkidle");
     } else {
-      await page.goto(withQuery(path, options.props), {
+      await page.goto(withQuery$1(path, options.props), {
         timeout: 1e4,
         waitUntil: "networkidle"
       });
@@ -7483,7 +7485,7 @@ async function getIslandContext(event) {
     ...context,
     id: hashId,
     name: componentName,
-    props: destr(context.props) || {},
+    props: destr$1(context.props) || {},
     slots: {},
     components: {}
   };
@@ -7571,7 +7573,7 @@ const renderer = defineRenderHandler(async (event) => {
   {
     const link = [];
     for (const resource of Object.values(styles)) {
-      if ("inline" in getQuery(resource.file)) {
+      if ("inline" in getQuery$2(resource.file)) {
         continue;
       }
       if (!isRenderingIsland || resource.file.includes("scoped") && !resource.file.includes("pages/")) {
@@ -7908,7 +7910,7 @@ async function useOgImageBufferCache(ctx, options) {
 }
 
 async function fontEventHandler(e) {
-  const path = parseURL(e.path).pathname;
+  const path = parseURL$1(e.path).pathname;
   const { fonts } = useOgImageRuntimeConfig();
   const key = path.split("/font/")[1];
   if (key.includes(":")) {

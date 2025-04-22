@@ -12,6 +12,7 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
+    "@compodium/nuxt": "0.1.0-beta.9",
     "@iconify-json/lucide": "^1.2.34",
     "@iconify-json/simple-icons": "^1.2.30",
     "@nuxt/content": "https://pkg.pr.new/@nuxt/content@bf24dfe",

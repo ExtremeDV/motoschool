@@ -1,7 +1,7 @@
 export const checksums = {
-  "docs": "v3.5.0--HgOwnIyi0G8r8VgEBWMUV-2IWZDKNXVMZ05RfKEHn-Y",
+  "docs": "v3.5.0--QsGFRJRjTW-QxnNIYLqQ6u5-f4WMRsHUuJzOHDvxTDc",
   "posts": "v3.5.0--7tz_5ovN0FjHs8ljGj7OKA_FHVPvrCnxy5nbuyPcJgU",
-  "index": "v3.5.0--aC67djIxh5tLbO9EBFmoQUeIlyKkvhlP0UN4kP0FIwM",
+  "index": "v3.5.0--f0VwT4bhgd4FX5_VuE949b5OMtUBKWKEXytOCTJ0YmE",
   "pricing": "v3.5.0--rngB-tCwuXPNHCYIZx_5w7XJ1oY5BIo6d3HPj38d-Jo",
   "blog": "v3.5.0--RsT3Z5x3fGzPpGfybPEi7JEWdx9T21iM_LpFRHq1tnM"
 }
